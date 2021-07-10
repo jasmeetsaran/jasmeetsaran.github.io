@@ -1,0 +1,128 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 75rem;
+  padding-top: 3rem;
+}
+
+/********** common setting **********/
+h2 {
+  font-size: 2.8rem !important;
+  font-weight: 700;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+.jumbotron {
+  margin-bottom: 0 !important;
+}
+
+#banner {
+  background-size: cover;
+}
+
+/********** banner **********/
+#banner header {
+  overflow: hidden;
+}
+
+#banner header img {
+  max-width: 80px;
+}
+
+#banner #social-media a {
+  font-size: 40px;
+  color: #212121;
+  margin-right: 20px;
+}
+
+#banner #social-media a i {
+  color: #ffffff;
+}
+
+#banner #social-media a:hover {
+  background: none;
+}
+
+#banner #social-media a:hover i {
+  color: #212121;
+}
+
+/********** feature (skew background) **********/
+.feature img {
+  width: 100%;
+  max-width: 480px;
+}
+
+#feature-first {
+  background: linear-gradient(168deg, #212121 55%, #dc3545 0);
+}
+
+#feature-last {
+  background: #dc3545;
+}
+
+/********** contact **********/
+#contact {
+  background-size: cover;
+}
+
+#contact ul li {
+  padding: 3px 0;
+}
+
+#contact form {
+  color: #dc3545;
+}
+
+#contact form input,
+#contact form textarea {
+  background: transparent;
+  border: 1px solid #dc3545;
+  color: #ffffff;
+}
+
+/********** copyright **********/
+#copyright {
+  background: #212121;
+  padding: 2rem 3rem;
+}
+
+#copyright #social-media a {
+  width: 40px;
+  height: 40px;
+  border-radius: 99%;
+  background: #ffffff;
+  transition: 0.4s ease;
+}
+
+#copyright #social-media a i {
+  color: #212121;
+  font-size: 1.2rem;
+  line-height: 40px;
+}
+
+#copyright #social-media a:hover {
+  background: #dc3545;
+}
+
+#copyright #social-media a:hover i {
+  color: #ffffff;
+}
+
+/********** RWD **********/
+@media (max-width: 575px) {
+  #banner h1 {
+    font-size: 3.6rem;
+  }
+}
